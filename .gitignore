@@ -1,0 +1,10 @@
+Session.vim
+.local.vimrc
+.DS_Store
+*.pyc
+*.pot
+*~
+buildoutcache/dlcache/*
+!buildoutcache/dlcache/.keep
+buildoutcache/eggs/*
+!buildoutcache/eggs/.keep
