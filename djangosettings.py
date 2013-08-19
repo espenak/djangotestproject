@@ -14,6 +14,17 @@ SEND_EMAIL = False
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 ROOT_URLCONF = 'djangourls'
 
+DATABASES = {
+	'default': {
+	'ENGINE':   'django.db.backends.sqlite3',
+	'NAME':     'db.sqlite',
+	'USER':     '',
+	'PASSWORD': '',
+	'HOST':     '',
+	'PORT':     '',
+	}
+}
+
 INSTALLED_APPS = [
     'django.contrib.auth',
     'django.contrib.contenttypes',
