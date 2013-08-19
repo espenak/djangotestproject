@@ -19,4 +19,3 @@ setup(name = 'my_example',
                    'Programming Language :: Python'
                   ]
 )
-

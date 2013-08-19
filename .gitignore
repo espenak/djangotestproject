@@ -8,3 +8,9 @@ buildoutcache/dlcache/*
 !buildoutcache/dlcache/.keep
 buildoutcache/eggs/*
 !buildoutcache/eggs/.keep
+.installed.cfg
+.mr.developer.cfg
+bin/
+develop-eggs/
+*.egg-info/
+venv/
