@@ -12,6 +12,7 @@ STATIC_URL = '/static/'
 INTERNAL_IPS = ('127.0.0.1',)
 SEND_EMAIL = False
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+ROOT_URLCONF = 'djangourls'
 
 INSTALLED_APPS = [
     'my_example'

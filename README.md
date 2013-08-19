@@ -15,7 +15,13 @@ and re-run from ``venv/bin/python bootstrap.py``.
 
 
 ## Usage
+By default, we have a single Django app in ``src/my_example/``. Edit that app,
+or add more apps if you need to try out some multi-app features. When you add
+an app to ``src/``, you need to add it to:
 
+- the ``[sources]``-section of ``buildout.cfg``, and re-run ``bin/buildout``.
+- ``INSTALLED_APPS`` in ``djangosettings.py``.
+- ``djangourls.py`` if you add any views.
 
 
 ## Specify/Freeze versions
